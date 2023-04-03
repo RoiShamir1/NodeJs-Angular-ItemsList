@@ -1,0 +1,46 @@
+body {
+  background-color: #f8f8ff; /* off-white background color for the body */
+  font-family: Arial, sans-serif; /* set the font family for the body text */
+}
+
+h1 {
+  color: #0077cc; /* blue color for the h1 heading */
+  font-size: 28px; /* increase the font size of the h1 heading */
+  margin-top: 20px; /* add a margin on top of the h1 heading */
+}
+
+form {
+  display: flex; /* use flexbox to center the form horizontally */
+  flex-direction: column; /* set the flex direction to column */
+  max-width: 600px; /* set the maximum width of the form */
+  margin: 20px auto; /* center the form horizontally and add some margin on top and bottom */
+}
+
+label {
+  margin-top: 10px; /* add some margin on top of the labels */
+}
+
+input[type="text"] {
+  padding: 10px; /* add some padding to the text input fields */
+  font-size: 16px; /* set the font size for the text input fields */
+  border: 1px solid #dddddd; /* add a light gray border to the text input fields */
+  border-radius: 5px; /* round the corners of the text input fields */
+}
+
+button {
+  background-color: #0077cc; /* blue background color for the submit button */
+  color: #ffffff; /* white text color for the submit button */
+  border: none; /* remove the border from the submit button */
+  padding: 10px; /* add some padding to the submit button */
+  margin-top: 10px; /* add a margin on top of the submit button */
+  cursor: pointer; /* change the cursor to a pointer when hovering over the submit button */
+}
+
+button[type="button"] {
+  background-color: #cc0000; /* red background color for the delete button */
+  color: #ffffff; /* white text color for the delete button */
+  border: none; /* remove the border from the delete button */
+  padding: 10px; /* add some padding to the delete button */
+  margin-top: 10px; /* add a margin on top of the delete button */
+  cursor: pointer; /* change the cursor to a pointer when hovering over the delete button */
+}

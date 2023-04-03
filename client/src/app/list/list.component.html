@@ -1,0 +1,5 @@
+<div *ngFor="let animal of list">
+  <h2>{{ animal.name }}</h2>
+  <p>{{ animal.type }}</p>
+  <button (click)="delete(animal.id)">Delete</button>
+</div>

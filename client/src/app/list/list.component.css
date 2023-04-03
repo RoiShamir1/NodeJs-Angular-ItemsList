@@ -1,0 +1,26 @@
+div {
+  background-color: #f8f8ff; /* off-white background color */
+  border: 1px solid #dddddd; /* light gray border */
+  padding: 10px; /* add some padding to the div */
+}
+
+h2 {
+  color: #3b3b3b; /* dark gray color for the animal name */
+  font-size: 24px; /* increase the font size of the animal name */
+  margin-bottom: 5px; /* add a small bottom margin to the animal name */
+}
+
+p {
+  color: #6b6b6b; /* light gray color for the animal type */
+  font-size: 16px; /* decrease the font size of the animal type */
+  margin-top: 5px; /* add a small top margin to the animal type */
+}
+
+div button {
+  background-color: #0077cc; /* blue background color for the delete button */
+  color: #ffffff; /* white text color for the delete button */
+  border: none; /* remove the border from the delete button */
+  padding: 10px; /* add some padding to the delete button */
+  margin-top: 10px; /* add a margin on top of the delete button */
+  cursor: pointer; /* change the cursor to a pointer when hovering over the delete button */
+}
